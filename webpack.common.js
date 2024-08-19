@@ -10,7 +10,7 @@ module.exports = {
             template:'./src/index.html',
             inject:true,
             chunks:["bundle"],
-            filename:"index.html"
+            filename:"index.html",
         }),
     ],
     output:{
@@ -25,5 +25,5 @@ module.exports = {
                 use:['style-loader','css-loader'],
             },
         ]
-    }
+    },
 }
